@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // 🚨 URL BASE CORRIGIDA CONFORME SOLICITADO
-const BASE_URL = 'https://localhost:7238/api'; 
+const BASE_URL = 'https://gerenciamento-de-cursos.onrender.com/api'; 
 
 const api = axios.create({
   baseURL: BASE_URL,
